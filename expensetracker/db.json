@@ -4,47 +4,90 @@
       "expenseTitle": "Cloth",
       "expenseAmount": "2000",
       "date": "2003-01-12",
-      "options": ["Clothing", "CarWash", "Transportation"],
-      "reference": "Paid"
+      "options": [
+        "Clothing",
+        "CarWash",
+        "Transportation"
+      ],
+      "reference": "Paid",
+      "id": "6013"
     },
     {
       "expenseTitle": "Carwash",
       "expenseAmount": "2000",
       "date": "2003-01-16",
-      "options": ["Clothing", "CarWash", "Transportation"],
-      "reference": "Paid"
+      "options": [
+        "Clothing",
+        "CarWash",
+        "Transportation"
+      ],
+      "reference": "Paid",
+      "id": "743b"
     },
-
     {
       "expenseTitle": "Transportation",
       "expenseAmount": "2000",
       "date": "2003-01-16",
-      "options": ["Clothing", "CarWash", "Transportation"],
-      "reference": "Paid"
+      "options": [
+        "Clothing",
+        "CarWash",
+        "Transportation"
+      ],
+      "reference": "Paid",
+      "id": "80a4"
+    },
+    {
+      "id": "f68e",
+      "title": "sdufhsdufgsd;ybkvj",
+      "amount": 96000,
+      "category": "Renovation",
+      "description": "Upstairs",
+      "date": "2002-02-10"
     }
   ],
-
   "income": [
     {
       "incomeTitle": "salary",
       "incomeAmount": "2000",
       "date": "2003-01-12",
-      "options": ["Salary", "Tip"],
-      "reference": "credited"
+      "options": [
+        "Salary",
+        "Tip"
+      ],
+      "reference": "credited",
+      "id": "03dd"
     },
     {
       "incomeTitle": "tip",
       "incomeAmount": "2000",
       "date": "2003-01-12",
-      "options": ["Salary", "Tip", "youtube"],
-      "reference": "credited"
+      "options": [
+        "Salary",
+        "Tip",
+        "youtube"
+      ],
+      "reference": "credited",
+      "id": "1f76"
     },
     {
       "incomeTitle": "youtube",
       "incomeAmount": "2000",
       "date": "2003-01-12",
-      "options": ["Salary", "Tip", "youtube"],
-      "reference": "credited"
+      "options": [
+        "Salary",
+        "Tip",
+        "youtube"
+      ],
+      "reference": "credited",
+      "id": "bf21"
+    },
+    {
+      "id": "2505",
+      "title": "sdufhsdufgsd;ybkvj",
+      "amount": 96000,
+      "category": "Renovation",
+      "description": "Upstairs",
+      "date": "2002-02-10"
     }
   ]
 }
