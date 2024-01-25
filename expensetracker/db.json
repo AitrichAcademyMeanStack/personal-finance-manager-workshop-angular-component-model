@@ -1,0 +1,20 @@
+{
+    "expense": [
+        {
+            "expenseTitle": "Cloth",
+            "expenseAmount": "2000",
+            "date": "2003-01-12",
+            "options": ["Clothing","CarWash","Transportation"],
+            "reference": "Paid"
+        }
+    ],
+    "income": [
+        {
+            "incomeTitle": "Cloth",
+            "incomeAmount": "2000",
+            "date": "2003-01-12",
+            "options": ["Salary","Tip"],
+            "reference": "credited"  
+        }
+    ]
+}
