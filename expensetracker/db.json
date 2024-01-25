@@ -1,20 +1,50 @@
 {
-    "expense": [
-        {
-            "expenseTitle": "Cloth",
-            "expenseAmount": "2000",
-            "date": "2003-01-12",
-            "options": ["Clothing","CarWash","Transportation"],
-            "reference": "Paid"
-        }
-    ],
-    "income": [
-        {
-            "incomeTitle": "Cloth",
-            "incomeAmount": "2000",
-            "date": "2003-01-12",
-            "options": ["Salary","Tip"],
-            "reference": "credited"  
-        }
-    ]
+  "expense": [
+    {
+      "expenseTitle": "Cloth",
+      "expenseAmount": "2000",
+      "date": "2003-01-12",
+      "options": ["Clothing", "CarWash", "Transportation"],
+      "reference": "Paid"
+    },
+    {
+      "expenseTitle": "Carwash",
+      "expenseAmount": "2000",
+      "date": "2003-01-16",
+      "options": ["Clothing", "CarWash", "Transportation"],
+      "reference": "Paid"
+    },
+
+    {
+      "expenseTitle": "Transportation",
+      "expenseAmount": "2000",
+      "date": "2003-01-16",
+      "options": ["Clothing", "CarWash", "Transportation"],
+      "reference": "Paid"
+    }
+  ],
+
+  "income": [
+    {
+      "incomeTitle": "salary",
+      "incomeAmount": "2000",
+      "date": "2003-01-12",
+      "options": ["Salary", "Tip"],
+      "reference": "credited"
+    },
+    {
+      "incomeTitle": "tip",
+      "incomeAmount": "2000",
+      "date": "2003-01-12",
+      "options": ["Salary", "Tip", "youtube"],
+      "reference": "credited"
+    },
+    {
+      "incomeTitle": "youtube",
+      "incomeAmount": "2000",
+      "date": "2003-01-12",
+      "options": ["Salary", "Tip", "youtube"],
+      "reference": "credited"
+    }
+  ]
 }
