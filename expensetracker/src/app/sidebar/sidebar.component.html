@@ -1,42 +1,35 @@
-<div class="container">
-    <div class="navigation">
-        <ul>
-            <li>
-                <a href="#">
-                    <span class="icon">
-                      <img src="../../../assets/img/avatar.png" class="avtr">
-                    </span>
-                    <span class="name"><h2>Jack</h2></span>
-                </a>
-            </li>
-    
-            <li>
-                <a href="#">
-                    <span class="icon">
-                      <img src="../../../assets/img/dashboard.png"class="menuimg">
-                    </span>
-                    <span class="title">Dashboard</span>
-                </a>
-            </li>
-    
-            <li>
-                <a routerLink="income">
-                    <span class="icon">
-                      <img src="../../../assets/img/income.png" class="menuimg">
-                    </span>
-                    <span class="title">Income</span>
-                </a>
-            </li>
-            <li>
-                <a routerLink="expense">
-                  <span class="icon">
-                    <img src="../../../assets/img/accounting.png" class="menuimg">
-                  </span>
-                  <span class="title">Expense</span>
-                </a>
-            </li>
-        </ul>
+
+
+
+ <div class="container nav">
+  <div class="col-2">
+  <div class="circle">
+    <img src="../../../assets/img/avatar.png" />
+    <div>
+      <h2>Jack</h2>
+      <p>your money</p>
     </div>
+  </div>
+
+    <ul class="menu-items">
+      <li>
+        <i class="fa-solid fa-chart-line"
+          routerLink="dashboard">&nbsp;Dashboard
+        </i>
+      </li>
+      <li>
+        <i class="fa-solid fa-money-bill-transfer" a routerLink="expense">&nbsp;Expenses
+        </i>
+      </li>
+      <li>
+        <i class="fa-solid fa-arrow-trend-up" a routerLink="income">&nbsp;Incomes
+        </i>
+      </li>
+    </ul>
+  <div className="bottom-nav">
+    <li>
+      <i class="fa-solid fa-right-from-bracket">&nbsp;Sign Out</i>
+    </li>
+  </div>
 </div>
-
-
+</div>

@@ -1,61 +1,33 @@
-
-
-
-<div class="container full">
-    <div class="row">
-        <div class="col-3">
-         
-               </div>   
-               
-  
-        <div class="col-9" >
-          
-                <div class="row contentbox">
-                    <div class="row">
-                    <h2 class="chartboxhead">All transaction</h2>
-                        
-                            <app-chart>
-
-                            </app-chart>
-                        </div>
-                        
-                           
-                     
-                 <div class="row ">
-                  <div class="col-3 ">
-                    <div class="card text-center">
-                      <div class="card-body">
-                        <h4 class="card-title">Total Expense</h4>
-                        <p class="card-text">$-Infinity</p>
-                      </div>
-                    </div>
-                  </div>
-               
-                <div class="col-3 ">
-                  <div class="card text-center">
-                    <div class="card-body">
-                      <h4 class="card-title">Balance</h4>
-                      <p class="card-text">$-Infinity</p>
-                    </div>
-                  </div>
-                </div>
-            
-              <div class="col-3 ">
-                <div class="card text-center">
-                  <div class="card-body">
-                    <h4 class="card-title">Total income</h4>
-                    <p class="card-text">$-Infinity</p>
-                  </div>
-                </div>
-              </div>
+<div class="container-fluid full">
+  <div class="row">
+    
+    <div class="col-md-12">
+      <div class="content">
+        <section class="expense">
+          <h1>All transaction</h1>
+           <div class="row">
+            <div class="chart">
+              <app-chart></app-chart>
             </div>
-          
-                 
-                
-
-                    
-
-
-
-
+           </div>
+           <div class="row">
+            <div class="col-4 income">
+              <h2>Total Income</h2>
+              <p class="fa-solid fa-dollar-sign">0</p>
+          </div>
+          <div class="col-4 expense">
+            <h2>Total Expense</h2>
+            <p class="fa-solid fa-dollar-sign">0</p>
+        </div>
+        <div class="col-4 balance">
+          <h2>Total Balance</h2>
+          <p class="fa-solid fa-dollar-sign">0</p>
+      </div>
+           </div>
+         
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
 
