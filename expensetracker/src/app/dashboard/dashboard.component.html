@@ -1,9 +1,9 @@
-<div class="container-fluid full">
+<!-- <div class="container-fluid full">
   <div class="row">
     
     <div class="col-md-12">
-      <div class="content">
-        <section class="expense">
+      <div class="content ">
+        <section class="expense mt-5">
           <h1>All transaction</h1>
            <div class="row">
             <div class="chart">
@@ -11,11 +11,11 @@
             </div>
            </div>
            <div class="row">
-            <div class="col-4 income">
+            <div class="col-4 income mt-5">
               <h2>Total Income</h2>
               <p class="fa-solid fa-dollar-sign">0</p>
           </div>
-          <div class="col-4 expense">
+          <div class="col-4 expense mt-5">
             <h2>Total Expense</h2>
             <p class="fa-solid fa-dollar-sign">0</p>
         </div>
@@ -29,5 +29,45 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dashboard.component.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <div class="mainpage">
+     
+        <div class="bigbar">
+            <h1>All Transactions</h1>
+            <div class="row mt-5">
+           <div class=" col-8 chart">
+               <app-chart></app-chart>
+           </div>
+           <div class="col-4 totalbalance">
+            
+              <h2>Total Balance</h2> 
+              <h2 class="balancevalue">$1000</h2>
+         
+           </div>
+          </div>
+            <div class="totalincome">
+                <h2>Total Income</h2> 
+                <h2 class="value">$1000</h2>
+            </div>
+            <div class="totalexpense">
+                <h2>Total Expense</h2>
+                <h2 class="value">$1000</h2>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
+
 
