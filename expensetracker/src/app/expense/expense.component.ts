@@ -12,6 +12,7 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 export class ExpenseComponent {
   expenseForm!: FormGroup; 
   res: any;
+  totalExpense: number = 0;
   @ViewChild('incomeCardsContainer', { read: ElementRef }) incomeCardsContainer!: ElementRef;
   constructor(private fb: FormBuilder, private expenseService: ExpenseService) {}
   
@@ -34,26 +35,6 @@ export class ExpenseComponent {
   }
 
   
-  // submitExpenseform(){
-  //   if (this.expenseForm.valid) {
-      
-  //     const formData = this.expenseForm.value;
-  //     this.expenseService. addExpense(formData).subscribe(
-  //       (response) => {
-         
-  //         this.res = response;
-  //         console.log('Income added successfully', this.res);
-  //       },
-  //       (error) => {
-          
-  //         console.error('Error adding income', error);
-  //       }
-  //     );
-  //   } else {
-     
-  //     this.expenseForm.markAllAsTouched();
-  //   }
-  // }
 
   submitExpenseform() {
     if (this.expenseForm.valid) {
@@ -64,7 +45,7 @@ export class ExpenseComponent {
         (response) => {
           // Add card dynamically
           this.addIncomeCard(response);
-          
+          this.totalExpense += +formData.amount;
           // Reset form
           this.expenseForm.reset();
         },

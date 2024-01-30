@@ -116,7 +116,7 @@ import { IncomeService } from './service/income.service';
 export class IncomeComponent implements OnInit {
   incomeForm!: FormGroup;
   @ViewChild('incomeCardsContainer', { read: ElementRef }) incomeCardsContainer!: ElementRef;
-
+  totalIncome: number = 0;
   constructor(private fb: FormBuilder, private incomeService: IncomeService) {}
 
   ngOnInit(): void {
@@ -138,7 +138,7 @@ export class IncomeComponent implements OnInit {
         (response) => {
           // Add card dynamically
           this.addIncomeCard(response);
-          
+          this.totalIncome += +formData.amount;
           // Reset form
           this.incomeForm.reset();
         },

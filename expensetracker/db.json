@@ -123,6 +123,14 @@
       "date": "2024-01-06",
       "type": "health",
       "reference": "paid"
+    },
+    {
+      "id": "9dd3",
+      "title": "sdsd",
+      "amount": "4566",
+      "date": "2024-01-06",
+      "type": "health",
+      "reference": "hgh"
     }
   ],
   "income": [
@@ -231,6 +239,78 @@
       "amount": "5678",
       "date": "2024-01-14",
       "incomeType": "salary",
+      "reference": "credit"
+    },
+    {
+      "id": "6048",
+      "title": "fee",
+      "amount": "345",
+      "date": "2024-01-07",
+      "incomeType": "salary",
+      "reference": "paid"
+    },
+    {
+      "id": "a098",
+      "title": "ghee selling",
+      "amount": "6778",
+      "date": "2024-01-14",
+      "incomeType": "freelancing",
+      "reference": "credit"
+    },
+    {
+      "id": "06a5",
+      "title": "mariage",
+      "amount": "677",
+      "date": "2024-01-07",
+      "incomeType": "salary",
+      "reference": "erre"
+    },
+    {
+      "id": "362c",
+      "title": "hhh",
+      "amount": "7677",
+      "date": "2024-01-07",
+      "incomeType": "freelancing",
+      "reference": "uyuuy"
+    },
+    {
+      "id": "95c9",
+      "title": "interest",
+      "amount": "7899",
+      "date": "2024-01-07",
+      "incomeType": "freelancing",
+      "reference": "fghghghg"
+    },
+    {
+      "id": "aa70",
+      "title": "rrr",
+      "amount": "455",
+      "date": "2024-01-07",
+      "incomeType": "salary",
+      "reference": "credit"
+    },
+    {
+      "id": "3d6f",
+      "title": "rfrer",
+      "amount": "12",
+      "date": "2024-01-08",
+      "incomeType": "salary",
+      "reference": "errwq"
+    },
+    {
+      "id": "1bb8",
+      "title": "ghee",
+      "amount": "456",
+      "date": "2024-01-13",
+      "incomeType": "freelancing",
+      "reference": "credi"
+    },
+    {
+      "id": "baf4",
+      "title": "fee",
+      "amount": "300",
+      "date": "2024-01-14",
+      "incomeType": "freelancing",
       "reference": "credit"
     }
   ]
