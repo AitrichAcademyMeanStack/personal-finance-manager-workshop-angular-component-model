@@ -51,6 +51,78 @@
       "date": "2003-01-16",
       "options": "clothing",
       "reference": "Paid"
+    },
+    {
+      "id": "6fd4",
+      "title": "sugar",
+      "amount": "500",
+      "date": "2024-01-06",
+      "type": "groceries",
+      "reference": ""
+    },
+    {
+      "id": "f977",
+      "title": "tution fee",
+      "amount": "4567",
+      "date": "2024-01-07",
+      "type": "education",
+      "reference": ""
+    },
+    {
+      "id": "3601",
+      "title": "rent",
+      "amount": "5678",
+      "date": "2024-01-06",
+      "type": "other",
+      "reference": ""
+    },
+    {
+      "id": "39ae",
+      "title": "insurence",
+      "amount": "5678",
+      "date": "2024-01-13",
+      "type": "health",
+      "reference": ""
+    },
+    {
+      "id": "cca4",
+      "title": "movie",
+      "amount": "3400",
+      "date": "2024-01-07",
+      "type": "other",
+      "reference": "paid"
+    },
+    {
+      "id": "52c2",
+      "title": "fdf",
+      "amount": "3444",
+      "date": "2024-01-15",
+      "type": "health",
+      "reference": "paid"
+    },
+    {
+      "id": "5ed4",
+      "title": "hotel bill",
+      "amount": "340",
+      "date": "2024-01-06",
+      "type": "other",
+      "reference": "paid"
+    },
+    {
+      "id": "83ae",
+      "title": "fee",
+      "amount": "590",
+      "date": "2024-01-06",
+      "type": "health",
+      "reference": "paid"
+    },
+    {
+      "id": "90ed",
+      "title": "ffghfd",
+      "amount": "566",
+      "date": "2024-01-06",
+      "type": "health",
+      "reference": "paid"
     }
   ],
   "income": [
@@ -96,6 +168,70 @@
       "category": "Renovation",
       "description": "Upstairs",
       "date": "2002-02-10"
+    },
+    {
+      "id": "f990",
+      "expenseTitle": "supermarket",
+      "expenseAmount": "2000",
+      "date": "2003-01-16",
+      "options": "clothing",
+      "reference": "Paid"
+    },
+    {
+      "id": "4a63",
+      "title": "teaching",
+      "amount": "8990",
+      "date": "2024-01-07",
+      "incomeType": "freelancing",
+      "reference": "credit"
+    },
+    {
+      "id": "419d",
+      "title": "music fee",
+      "amount": "45667",
+      "date": "2024-01-07",
+      "incomeType": "salary",
+      "reference": "credit"
+    },
+    {
+      "id": "431b",
+      "title": "selling fruits",
+      "amount": "5678",
+      "date": "2024-01-07",
+      "incomeType": "freelancing",
+      "reference": "credit"
+    },
+    {
+      "id": "f7f3",
+      "title": "rent from room",
+      "amount": "34555",
+      "date": "2024-01-07",
+      "incomeType": "salary",
+      "reference": "credit"
+    },
+    {
+      "id": "aa35",
+      "title": "tailoring",
+      "amount": "3456",
+      "date": "2024-01-07",
+      "incomeType": "freelancing",
+      "reference": "credit"
+    },
+    {
+      "id": "aa91",
+      "title": "harvesting veg",
+      "amount": "5900",
+      "date": "2024-01-08",
+      "incomeType": "freelancing",
+      "reference": "credit"
+    },
+    {
+      "id": "9a70",
+      "title": "business",
+      "amount": "5678",
+      "date": "2024-01-14",
+      "incomeType": "salary",
+      "reference": "credit"
     }
   ]
 }

@@ -132,3 +132,9 @@ button {
     --bs-btn-bg: #F56692 !important;
     --bs-btn-border-color: #F56692 !important;
 }
+
+.card{
+    background-color: white;
+    width: 500px;
+    height: 100px;
+}
