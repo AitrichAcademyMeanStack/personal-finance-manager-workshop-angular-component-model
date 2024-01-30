@@ -1,3 +1,4 @@
+import { FinanceService } from './../shared/finance.service';
 
 
 // import { HttpClient } from '@angular/common/http';
@@ -108,6 +109,7 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { IncomeService } from './service/income.service';
 
+
 @Component({
   selector: 'app-income',
   templateUrl: './income.component.html',
@@ -117,7 +119,7 @@ export class IncomeComponent implements OnInit {
   incomeForm!: FormGroup;
   @ViewChild('incomeCardsContainer', { read: ElementRef }) incomeCardsContainer!: ElementRef;
   totalIncome: number = 0;
-  constructor(private fb: FormBuilder, private incomeService: IncomeService) {}
+  constructor(private fb: FormBuilder, private incomeService: IncomeService, private financeService:FinanceService) {}
 
   ngOnInit(): void {
     this.incomeForm = this.fb.group({
@@ -139,6 +141,7 @@ export class IncomeComponent implements OnInit {
           // Add card dynamically
           this.addIncomeCard(response);
           this.totalIncome += +formData.amount;
+          this.financeService.updateTotalIncome(+formData.amount);
           // Reset form
           this.incomeForm.reset();
         },

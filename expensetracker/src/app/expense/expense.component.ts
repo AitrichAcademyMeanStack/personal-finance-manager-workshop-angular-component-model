@@ -4,6 +4,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ExpenseService } from './service/expense.service';
 import { Expense } from './model/expense';
 import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
+import { FinanceService } from '../shared/finance.service';
 @Component({
   selector: 'app-expense',
   templateUrl: './expense.component.html',
@@ -14,7 +15,7 @@ export class ExpenseComponent {
   res: any;
   totalExpense: number = 0;
   @ViewChild('incomeCardsContainer', { read: ElementRef }) incomeCardsContainer!: ElementRef;
-  constructor(private fb: FormBuilder, private expenseService: ExpenseService) {}
+  constructor(private fb: FormBuilder, private expenseService: ExpenseService,private financeService:FinanceService) {}
   
   ngOnInit(): void {
     this.expenseForm = this.fb.group({
@@ -46,11 +47,12 @@ export class ExpenseComponent {
           // Add card dynamically
           this.addIncomeCard(response);
           this.totalExpense += +formData.amount;
+          this.financeService.updateTotalExpense(+formData.amount);
           // Reset form
           this.expenseForm.reset();
         },
         (error) => {
-          console.error('Error adding income', error);
+          console.error('Error adding expense', error);
         }
       );
     } else {

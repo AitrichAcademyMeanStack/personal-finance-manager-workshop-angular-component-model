@@ -52,17 +52,20 @@
            <div class="col-4 totalbalance">
             
               <h2>Total Balance</h2> 
-              <h2 class="balancevalue">$1000</h2>
-         
-           </div>
+              <!-- <h2 class="balancevalue">$1000</h2> -->
+              <h2>Total Balance: {{ balance | currency:'USD' }}</h2>
+
+            </div>
           </div>
             <div class="totalincome">
                 <h2>Total Income</h2> 
-                <h2 class="value">$1000</h2>
+                <!-- <h2 class="value">$1000</h2> -->
+                <h2>Total Income: {{ financeServiceData.totalIncome | currency:'USD' }}</h2>
             </div>
             <div class="totalexpense">
                 <h2>Total Expense</h2>
-                <h2 class="value">$1000</h2>
+                <!-- <h2 class="value">$1000</h2> -->
+                <h2>Total Expense: {{ financeServiceData.totalExpense | currency:'USD' }}</h2>
             </div>
             
         </div>

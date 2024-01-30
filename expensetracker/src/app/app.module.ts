@@ -9,6 +9,7 @@ import { ExpenseComponent } from './expense/expense.component';
 import { ChartComponent } from './chart/chart.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { SharedComponent } from './shared/shared.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     IncomeComponent,
     ExpenseComponent,
     ChartComponent,
-    DashboardComponent
+    DashboardComponent,
+    SharedComponent
   ],
   imports: [
     BrowserModule,
